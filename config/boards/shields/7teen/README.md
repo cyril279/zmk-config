@@ -20,7 +20,7 @@ Further, the fact that this issue is present without anything wired-up suggests 
 Primarily relevant b/c shield was fabricated prior to proper amounts of testing.  
 - Reverse polarity of encoder circuit: Resolves the need to actuate the encoder prior to seeing keypresses.  
 - Disable I2C: Resolves the wonky encoder behavior & the need to use non-serial-com gpio's.  
-- Enable KSCAN_MATRIX_POLLING: Alleviates shared interrupt conflict across pins 5 & 7.  
+- Enable ZMK_KSCAN_MATRIX_POLLING: Alleviates shared interrupt conflict across pins 5 & 7.  
 
 **Lesssons learned / design notes:**  
 - Breadboard first : /  
